@@ -1,0 +1,19 @@
+.user {
+    color: $spotify-green;
+    &__image {
+        width: 150px;
+        height: 150px;
+        background: #282828;
+        border-radius: 50%;
+        overflow: hidden;
+        color: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > picture,
+        > img {
+            max-width: 100%;
+        }
+    }
+}

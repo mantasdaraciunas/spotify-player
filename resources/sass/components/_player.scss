@@ -1,0 +1,42 @@
+.player {
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50px;
+  background: #282828;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  color: #ddd;
+
+  &__button {
+    font-size: 1.4rem;
+    color: $spotify-green;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    &--off {
+      color: #777;
+      font-weight: 200;
+    }
+  }
+
+  &__playing {
+    font-size: 1.2rem;
+  }
+
+  &__playing,
+  &__info {
+    color: #777;
+  }
+
+  b,
+  a {
+    color: $spotify-green;
+    font-weight: 600;
+  }
+}
