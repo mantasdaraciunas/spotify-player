@@ -14,6 +14,7 @@ You can run [docker](https://www.docker.com/) for this project. [Doker Compose](
 
 #### 1. Implement simple player which start/stop current song, next and previous song features
 Frontend is calling: 
+
 | route | function |
 | --- | --- |
 | /v1/player/pause | pause |
