@@ -1,6 +1,5 @@
 # Incomplete Spotify Player
 
-
 ### Stack
 - Laravel 6.0.1
 - Vue
@@ -13,24 +12,29 @@ Fork this repo.
 Login to Spotify Developer dashboard and create new App. Then you will get `client id` and `client secret` which you have to use in the project
 You can run [docker](https://www.docker.com/) for this project. [Doker Compose](https://docs.docker.com/compose/) yml file already created in a repo so you can use it. You can you any other way to make project work
 
-#### 1. (**Mandatory**) Complete Missing Part for simple player to be working
-##### 1.1. Implement Client Login Controller `LoginCotroller`
-##### 1.2. Implement Player API Controller `PlayerAPI`
+#### 1. Implement simple player which start/stop current song, next and previous song features
+Frontend is calling: 
+| route | function |
+| --- | --- |
+| /v1/player/pause | pause |
+| /v1/player/pause | play |
+| /v1/player/next | next song |
+| /v1/player/previous | previous song |
 
-#### 2. (Optional) Implement same player without using Database (if posible. If not, explain why)
 
-#### 3. (Optional) Implement User Playlist
+#### 2. Implement same player without using Database (if possible. If not, explain why)
 
-#### 4. (Optional) Implement Album view
+#### 3. Implement User Playlist
 
-#### 5. (Optional) Write some tests
+#### 4. Implement Album view
 
-#### 6. (Optional) Implement any other API somehow related to spotify
+#### 5. Write some tests
 
-#### 7. (Optional, but much appreciated) Implement anything else you think it's cool!
+#### 6. Implement any other API somehow related to Spotify
 
-**Taks 1 is Mandatory. Other task are optional, but obviously gives you more points. Task 7 gives doubles points if the feature is awesome**
-**Write clean, easy to understand code. explain clearly in comments some hard to understand code or why some function might not work (i.e. Spotify requirements)**
+#### 7. Implement anything else you think it's cool!
+
+Write clean, easy to understand code. explain clearly in comments some hard to understand code or why some function might not work (i.e. Spotify requirements)
 
 ## Expectations
 

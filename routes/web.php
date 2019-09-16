@@ -14,9 +14,5 @@
 Route::get('/', "IndexController@index")->name('home');
 Route::get('/authorization', "LoginController@authorization");
 Route::get('/spotify-access', "LoginController@spotifyAccess");
-
-
-Route::group(function () {
-    Route::get('/user', "UserController@index")->name('user');
-    Route::get('/user/logout', "UserController@logout")->name('user-logout');
-});
+Route::get('/user', "UserController@index")->name('user');
+Route::get('/user/logout', "UserController@logout")->name('user-logout');
