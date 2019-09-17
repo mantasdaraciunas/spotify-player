@@ -1,6 +1,6 @@
 <template>
     <div class="player" :key="timestamp">
-        <div class="player__control centered mb-2" v-if="isPremium">
+        <div class="player__control centered mb-2">
             <div class="player__button" :class="{'player__button--off': !isShuffleOn}">
                 <font-awesome-icon icon="random" @click="shuffle" size="xs" />
             </div>
