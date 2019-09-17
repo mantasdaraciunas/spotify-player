@@ -22,14 +22,11 @@ Frontend is calling:
 | /v1/player/next | next song |
 | /v1/player/previous | previous song |
 
+#### 2. Implement same simple player as it is in #1 without using Database (if possible. If not, explain why)
 
-#### 2. Implement same player without using Database (if possible. If not, explain why)
-
-#### 3. Implement User Playlist
+#### 3. Implement User Playlists
 
 #### 4. Implement Album view
-
-#### 5. Write some tests
 
 #### 6. Implement any other API somehow related to Spotify
 
@@ -41,8 +38,8 @@ Write clean, easy to understand code. explain clearly in comments some hard to u
 
 We expect you:
 1. to write clean, simple and correct code
-2. to leave code behind you even better than before (refactor)
-3. use PR for each feature/task
+2. to leave code behind you much better than before (don't be afraid to change things)
+3. to use Pull Request (PR) for each task
 4. to understand existing code
-5. always keep in mind security
+5. to always keep in mind the security
 6. to understand documentation and be able to use it correctly
